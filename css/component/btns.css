@@ -1,0 +1,64 @@
+.btn-bg a{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 17px;
+    padding: 12px 30px;
+    transition: all .5s;
+}
+.btn-wow{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 17px;
+    padding: 12px 30px;
+    transition: all .5s;
+}
+.btn-wow-2{
+    color: #ef6213;
+    background-color: #000003;
+    border: none;
+    font-size: 17px;
+    padding: 12px 30px;
+    border-radius: 25px;
+    transition: all .5s;
+}
+/* hover woooow */
+.hov-btn {
+    padding: 12px 30px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    transition: 0.3s ease all;
+    z-index: 1;
+  }
+  
+  .hov-btn:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: rgb(147, 147, 221);
+    z-index: -1;
+  }
+  
+  .hov-btn:hover, .hov-btn:focus {
+    color: white;
+  }
+  
+ .hov-btn:hover:before, .hov-btn:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    border-radius: 25px;
+  }
+  
+  .hov-btn:active {
+    transform: scale(0.9);
+  }
+  /* amzing */
