@@ -1,0 +1,106 @@
+@import url(./font.css);
+@import url(../vendor/animate.css);
+@import url(../vendor/bootstrap.min.css);
+img{
+    width: 100%;
+    display: block;
+    transition: all .5s;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    text-transform: capitalize;
+}
+::selection{
+    background-color: #080828;
+    color: white;
+}
+a{
+    text-decoration: none !important;
+}
+ul{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #040432;
+    font-weight: 600;
+    font-family:'Alegreya'sans-serif ;
+}
+p, a, span, button, article{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:'Roboto'sans-serif ;
+}
+.pd-15{
+    padding: 15px;
+}
+.pdX-70{
+    padding: 70px 0;
+}
+.pdX-20{
+    padding: 20px 0;
+}
+.pdX-30{
+    padding: 30px 0;
+}
+.pdY-10{
+    padding: 0 10px;
+}
+.pdX-10{
+    padding: 10px 0;
+}
+.mX-70{
+    margin: 70px 0;
+}
+.mt-70{
+    margin-top: 70px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mX-50{
+    margin: 50px 0;
+}
+.mX-30{
+    margin: 30px 0;
+}
+.mX-15{
+    margin: 15px 0;
+}
+.mX-auto{
+    margin: 0 auto;
+}
+.active{
+    font-weight: bolder;
+}
+.border-12{
+    border-radius: 20px 60px;
+}
+/* heading*/
+.heading span{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.heading{
+    padding: 20px 0;
+}
+.heading h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #080828;
+    padding-bottom: 25px;
+}
+.sign-in{
+    margin: 20px 0;
+}
+.register-sign-in a{
+    color: blue;
+}
+
+/*fixed*/
+
