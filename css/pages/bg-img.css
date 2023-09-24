@@ -1,0 +1,64 @@
+.bg-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*                                          */
+
+.bg-img{
+    height: auto;
+    background-image: url(../../img/banner_bg.jpg);
+}
+.bg-img .text-bg span{
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+}
+.bg-img .text-bg h1{
+    color: #cdcdcdc7;
+    font-size: 55px;
+    font-weight: 600;
+    padding: 25px 0;
+}
+.bg-img .text-bg h1.animted::after{
+    content: "_?";
+    animation-name: h1 ;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+@keyframes h1 {
+    0%{content: "_?";}
+    5%{content: "d_?";}
+    10%{content: "de_?";}
+    15%{content: "dev_?";}
+    20%{content: "deve_?";}
+    25%{content: "devel_?";}
+    30%{content: "develo_?";}
+    35%{content: "develop_?";}
+    40%{content: "develope_?";}
+    55%{content: "developer_?";}
+    60%{content: "develope_?";}
+    65%{content: "develop_?";}
+    70%{content: "develo_?";}
+    75%{content: "devel_?";}
+    80%{content: "deve_?";}
+    85%{content: "dev_?";}
+    90%{content: "de_?";}
+    95%{content: "d_?";}
+    100%{content: "_?";}
+}
+.bg-img .text-bg p{
+    padding-bottom: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.gif-bg img{
+    mix-blend-mode: lighten;
+}
+.bg-img .btn-bg a:hover{
+    background-color: black;
+    color: #ef6213;
+    border: 1px solid black;
+}
