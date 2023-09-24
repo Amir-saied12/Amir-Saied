@@ -1,0 +1,24 @@
+footer .icon-footer li{
+    display: inline-block;
+    background-color: black;
+    border-radius: 50%;
+    padding: 11px 15px;
+}
+footer .icon-footer li:hover i{
+    transition: all .5s;
+}
+footer .icon-footer li:hover i{
+    transform: rotateY(180deg);
+    font-size: 17px;
+}
+footer h2{
+    color: rgba(240, 240, 240, 0.735);
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+footer.bg-img{
+    background-attachment: local;
+    height: auto;
+}
