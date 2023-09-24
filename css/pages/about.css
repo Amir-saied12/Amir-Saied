@@ -1,0 +1,87 @@
+.welcome{
+    background-image: linear-gradient(345deg, black, gray);
+    position: relative;
+}
+.txt-about ul li:first-child{
+    font-size: 18px;
+    font-weight: 700;
+}
+.about{
+    background-image: linear-gradient(345deg, rgb(232, 232, 232), black);
+}
+.about .txt-about span{
+    color: #000003;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.about .txt-about h2{
+    color: #040432;
+    font-size: 32px;
+    font-weight: 600;
+}
+.about .txt-about p{
+    font-size: 17px;
+    font-weight: 500;
+}
+.about .txt-about .social a{
+    color: rgb(27, 18, 18);
+}
+.about .txt-about ul span i{
+    background-color: #000000;
+    color: #ef6213;
+    font-size: 17px;
+    padding: 12px 12px;
+    border-radius: 56%;
+    margin-inline-end: 5px;
+}
+.about-mid .txt-about{
+    padding: 20px 15px;
+}
+.about-mid .txt-about p{
+    color: #0000007a;
+}
+.icons{
+    background-color: rgba(0, 0, 0, 0.543);
+}
+
+.icons.bg-img-2{
+    height: auto;
+    background-attachment: local;
+}
+.icons .crd i{
+    color: #000003;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 15px 0;
+    font-size: 32px;
+}
+.icons .crd p{
+    color: #b6b6b6;
+}
+.icons .crd h4{
+    color: white;
+}
+.icons a.btn {
+    margin: 10px 0;
+    color: blue;
+}
+/*                              */
+.app2 .card p{
+    color: #00003a;
+}
+.app2 .card{
+    transition: all .8s;
+    overflow: hidden;
+}
+.app2 .card img{
+    transition: all .6s;
+}
+.app2 .card:hover{
+    transform: scale(1.1);
+    box-shadow: inset -3px -8px 20px 0px black;
+}
+.app2 .card:hover img{
+    transform: scale(1.3);
+}
