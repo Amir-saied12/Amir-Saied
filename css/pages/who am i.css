@@ -1,0 +1,9 @@
+.started{
+    background-color: #353554;
+}
+.started .btn-wow:hover{
+    color: #01c224;
+    background-color: #023db9;
+    border-radius: 25px;
+    border: 1px solid #023db9;
+}
