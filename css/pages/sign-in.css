@@ -1,0 +1,26 @@
+.submit{
+    background-color: mediumblue;
+    color: white;
+    border: 1px solid mediumblue;
+    padding: 8px;
+    font-size: 22px;
+    border-radius: 25px;
+}
+.submit-2{
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+}
+.bg-all{
+    backdrop-filter: blur(50px);
+    background-position: center 27%;
+    background-repeat: no-repeat;
+    background-image: url(../../img/Pngtree\ dynamic.png);
+}
+.sign-in2{
+    background-position: center 27%;
+    background-repeat: no-repeat;
+    background-image: url(../../img/Pngtree\ dynamic.png);
+
+}
