@@ -1,0 +1,30 @@
+.navbar-brand{
+    color: white;
+    transition: all .5s;
+}
+.navbar-brand:hover{
+    font-size: 23px;
+}
+details{
+    color: aliceblue;
+}
+details a{
+    padding: 5px;
+}
+details summary{
+    margin: 7px 53px;
+    display: inline-block;
+    color: blue;
+}
+details summary:hover{
+    color: #ffd0f4;
+}
+.sign-in label{
+    font-weight: 500;
+}
+.navbar-nav .nav-item{
+    padding: 0 17px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 17px;
+}
